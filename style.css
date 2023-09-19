@@ -1,0 +1,290 @@
+.topbar{
+    width: 100%;
+    height: 8%;
+    display:flex;
+    position: fixed;
+    background-color: rgb(58, 60, 60);
+    z-index: 10;
+}
+.topbar_sign{
+     width: 100%;
+}
+.topul{
+    display: flex;
+    
+    
+}
+.topli{
+    display: flex;
+}
+.title{
+    color: aliceblue;
+    font-weight: 800;   
+}
+.title:hover{
+    color: aqua;
+}
+.anc{
+    text-decoration: none;
+}
+#reg{
+    margin-left: 55%;
+}
+#log{
+    margin-left: 10%;
+    padding: 50%;
+}
+#lan{
+    padding-left: 5%;
+}
+#su{
+    font-size: larger;
+}
+.select{
+    border-radius: 4px;
+}
+.details{
+    position: absolute;
+    width: 100%;
+    margin-top: 5%;
+    z-index: 10;
+}
+.Access_specifier{
+    display: flex;
+    width: 100%;
+}
+.title1{
+    color: black;   
+}
+.title1:hover{
+    color: azure;
+}
+.home{
+    margin: 1%;
+    margin-left: 45%;
+    font-size: larger;
+    font-weight: 900;
+}
+.faq{
+    margin: 1%;
+    margin-left: 4%;
+    font-size: larger;
+    font-weight: 900;
+}
+.aboutus{
+    margin: 1%;
+    margin-left: 4%;
+    font-size: larger;
+    font-weight: 900;
+}
+.usefullinks{
+    margin: 1%;
+    margin-left: 4%;
+    font-size: larger;
+    font-weight: 900;
+}
+.contactus{
+    margin: 1%;
+    margin-left: 4%;
+    font-size: larger;
+    font-weight: 900;
+}
+.und{
+    text-decoration: none;
+}
+.image{
+    position: absolute;
+    width: 99%;
+    margin-top: 4.8%;
+}
+.apply{
+    width: 100%;
+    height: 148px;
+    position: absolute;
+    margin-top: 32%;
+    font-size:x-large;
+    color:azure;
+    background-color: rgb(216, 222, 220);
+    opacity: 0.6;
+}
+.apply1{
+    width: 100%;
+    height: 148px;
+    position: absolute;
+    margin-top: 32%;
+    font-size:x-large;
+    color:rgb(64, 69, 69);
+}
+.btn{
+    margin-top: 3.5%;
+    margin-left: 70%;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(70, 73, 82);
+    color: azure;
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 5px;border-color: gold;
+
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.abtus{
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    margin-top: 45%;
+    
+    color: azure;
+    background-color: black;
+    text-align: center;
+}
+.story{
+    position: absolute;
+    margin-top: 48%;
+    text-align: center;
+}
+#anim{opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#anim.animate{
+    opacity: 1;
+    transform: translateY(0);
+}
+.rd{
+    text-decoration: none;
+    font-weight: 600;
+}
+.lwcn{
+    position: absolute;
+    display: flex;
+    margin-top: 63%;
+    text-align: center;
+}
+.ngo{
+    background-color: aqua;
+    margin-right: 5%;
+    border-radius: 10px;
+    width: 23%;
+    font-weight: 500;
+}
+.lwdt{
+    background-color: rgb(0, 255, 195);
+    margin-right: 7%;
+    border-radius: 10px;
+    width: 23%;
+    font-weight: 500;
+}
+#ly{
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    color: white;
+}
+.testimonial{
+    position: absolute;
+    display: flex;
+    margin-top: 92%;
+    margin-left: 40%;
+}
+.testim{
+    position: absolute;
+    margin-top: 97%;
+}
+
+
+#lawyer-listing{
+    cursor:pointer;
+     background-color:#f2f2f2; 
+     border-radius:4px;
+     padding:2px;
+}
+.pulse{
+    margin:2px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #3bda3b;
+    animation: 2s infinite;
+}
+
+.advocate{
+    border-radius: 20px;
+    width: 120px;
+    filter:drop-shadow(0 0 5px #333);
+margin: 5px;
+margin-right: 10px;
+    
+}
+.testim{
+    width: 40%;
+    margin-left: 2%;
+}
+.border{
+    border: solid rgb(243, 234, 185);
+    display:flex;
+    width: 100%;
+    margin-left: 11%;
+   
+}
+.button{
+   font-size: 15px;
+   color: white;
+   
+}
+.location {
+    position: fixed;
+    width: 100%;
+    margin:8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+}
+.score{
+    font-size: 15px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 0;
+    margin: 0 0 10px;
+}
+.side{
+    margin-left: 56px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 34px;
+    background-color: rgb(22, 22, 246);
+    margin: 8px;
+    
+    
+}
+.button:hover{
+    transform: scale(1.06);
+    color: rgb(46, 45, 45);
+}
+.box:hover{
+    transform: scale(1.06);
+}
+#te2{
+    margin-left: 25%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
